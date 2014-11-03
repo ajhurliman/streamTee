@@ -1,0 +1,14 @@
+{
+  "name": "streamTee",
+  "version": "0.0.1",
+  "description": "Take stdin and send it to stdout as well as an output file determined at runtime",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "stream"
+  ],
+  "author": "ajHurliman",
+  "license": "MIT"
+}
