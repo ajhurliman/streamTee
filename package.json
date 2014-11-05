@@ -1,14 +1,32 @@
 {
   "name": "streamTee",
-  "version": "0.0.1",
-  "description": "Take stdin and send it to stdout as well as an output file determined at runtime",
+  "version": "1.0.0",
+  "description": "This app takes stdin and splits it to stdout and to a logfile determined at runtime",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/grunt-cli/bin/grunt test"
+  },
+  "dependencies": {
+    "jscs": "^1.7.3",
+    "jshint": "^2.5.8"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-jscs": "^0.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ajhurliman/streamTee.git"
   },
   "keywords": [
-    "stream"
+    "streams"
   ],
   "author": "ajHurliman",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajhurliman/streamTee/issues"
+  },
+  "homepage": "https://github.com/ajhurliman/streamTee"
 }
